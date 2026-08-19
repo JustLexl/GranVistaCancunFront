@@ -2,7 +2,7 @@ import { Injectable, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { auth } from '@/app/firebase-config';
 import { signInWithEmailAndPassword, signOut, onAuthStateChanged, User } from 'firebase/auth';
-import { UsuarioService, User as DBUser } from '@/app/pages/service/usuarios.service';
+import { UsuarioService, User as DBUser } from '@/app/core/services/usuarios.service';
 
 @Injectable({
     providedIn: 'root'

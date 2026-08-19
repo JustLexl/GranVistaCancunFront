@@ -2,7 +2,7 @@ import { Component, effect, inject, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from '@/app/core/services/auth.service';
-import { UsuarioService, User } from '../service/usuarios.service';
+import { UsuarioService, User } from '@/app/core/services/usuarios.service';
 import { updatePassword, EmailAuthProvider, reauthenticateWithCredential } from 'firebase/auth';
 
 @Component({
